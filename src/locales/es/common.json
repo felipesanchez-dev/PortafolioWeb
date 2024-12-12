@@ -1,0 +1,153 @@
+{
+  "title": "Desarrollador FullStack - Felipe Sanchez",
+  "description": "Desarrollador FullStack de Ibague, Colombia. Desarrollador en JavaScript ES6+, Node.js, React, Astro y ReactNative-Expo.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    },
+    {
+      "label": "Un Poco Más Sobre Mí",
+      "href": "https://portafolio-dev-beta.vercel.app"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Felipe Sanchez!",
+    "job_title": "<strong>Desarrollador Full Stack </strong>",
+    "description": "Desarrollador en aplicaciones web y multiplataforma utilizando tecnologías como Astro, React, React Native-Expo, JavaScript y Node.js.",
+    "cta": "Contactame"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Desarrollo Web", "Desarrollo Multiplataforma"],
+      "jobs_description": [
+        {
+          "title": "Desarrollador Web FullStack",
+          "time": ["Dic 2023"],
+          "description": "Creo sitios web modernos aplicando buenas prácticas de UI/UX para mejorar la experiencia del usuario. Me encargo de rediseñar, optimizar el SEO, mejorar la seguridad y acelerar el rendimiento de las páginas, organizando la información clave para aumentar la tasa de conversión y las visitas.",
+          "list": [
+            "Diseño y desarrollo de sitios web",
+            "Optimización de rendimiento y SEO",
+            "Despliegue y mantenimiento de sitios",
+            "Creación de interfaces intuitivas (UI/UX)",
+            "Gestión de sistemas CMS"
+          ]
+        },
+        {
+          "title": "Desarrollador de Aplicaciones Multiplataforma en ReactNative-Expo",
+          "time": ["Jul 2023"],
+          "description": "Desarrollo aplicaciones multiplataforma utilizando React Native para clientes en diversas industrias. Implemento soluciones escalables, optimizo el rendimiento de las aplicaciones, y realizo la integración de APIs en servicios de Frontend y Backend. Además, aplico buenas prácticas en la experiencia de usuario (UI/UX) y realizo pruebas exhaustivas para asegurar el correcto funcionamiento en diferentes dispositivos y plataformas.",
+          "list": [
+            "Desarrollo de aplicaciones multiplataforma",
+            "Optimización de rendimiento",
+            "Integración de APIs",
+            "Implementación de UI/UX",
+            "Pruebas y depuración"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Web Fundacion San Dimas",
+        "description": "Fundación San Dimas, dedicada a la protección de la biodiversidad y los ecosistemas naturales de Colombia.",
+        "image": "/src/images/projects/SanDimas.png",
+        "techs": [
+          "Astro",
+          "TailwindCSS",
+          "CSS",
+          "TypeScript",
+          "React",
+          "JavaScript"
+        ],
+        "code": "Código",
+        "codeLink": "https://fundacionsandimas.org",
+        "preview": "Vista previa",
+        "previewLink": "https://fundacionsandimas.org/"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Sin nada que mostrar",
+        "title": "Sin nada que mostrar",
+        "description": "Sin nada que decir",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repositorio",
+        "commits": "https://github.com/felipesanchez-dev"
+      },
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Sin nada que mostrar",
+        "title": "Sin nada que mostrar",
+        "description": "Sin nada que decir",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repositorio",
+        "commits": "https://github.com/felipesanchez-dev"
+      },
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Sin nada que mostrar",
+        "title": "Sin nada que mostrar",
+        "description": "Sin nada que decir",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repositorio",
+        "commits": "https://github.com/felipesanchez-dev"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "¿Quién soy más allá de la pantalla?",
+    "description": "La programación es una de mis grandes pasiones, pero no todo en mi vida gira en torno a ella. Soy una persona perseverante y creativa, siempre buscando balancear mis intereses. Me encanta el fútbol, jugar ajedrez, ver películas y explorar el mundo, visitando nuevos lugares. Mi enfoque principal ha estado en estudiar tecnologías y mejorar mi lógica de programación hasta sentirme cómodo para compartir lo que sé, a mi manera. A diferencia de las clases tradicionales o cursos que se centran en teorías formales, mi objetivo es enseñar programación de manera más natural, sin necesidad de estar leyendo manuales ni usar un lenguaje técnico que pueda resultar complicado."
+  },
+  "contact": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "",
+      "designed_by": ""
+    },
+    "developed": {
+      "developed_with": "",
+      "developed_by": ""
+    }
+  }
+}

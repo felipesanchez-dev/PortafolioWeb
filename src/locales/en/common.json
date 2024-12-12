@@ -1,0 +1,153 @@
+{
+  "title": "FullStack Developer - Felipe Sanchez",
+  "description": "FullStack Developer from Ibague, Colombia. Developer in JavaScript ES6+, Node.js, React, Astro, and ReactNative-Expo.",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "#work-experience"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "About Me",
+      "href": "#about-me"
+    },
+    {
+      "label": "A Little More About Me",
+      "href": "https://portafolio-dev-beta.vercel.app"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for work!",
+    "title": "Hello, I am Felipe Sanchez!",
+    "job_title": "<strong>Full Stack Developer</strong>",
+    "description": "Developer in web and cross-platform applications using technologies such as Astro, React, React Native-Expo, JavaScript, and Node.js.",
+    "cta": "Contact Me"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": ["Web Development", "Cross-Platform Development"],
+      "jobs_description": [
+        {
+          "title": "FullStack Web Developer",
+          "time": ["Dec 2023"],
+          "description": "I create modern websites by applying best practices in UI/UX to enhance user experience. I redesign, optimize SEO, improve security, and accelerate page performance, organizing key information to increase conversion rates and visits.",
+          "list": [
+            "Design and development of websites",
+            "Performance and SEO optimization",
+            "Deployment and maintenance of websites",
+            "Creation of intuitive interfaces (UI/UX)",
+            "CMS system management"
+          ]
+        },
+        {
+          "title": "Cross-Platform App Developer in ReactNative-Expo",
+          "time": ["Jul 2023"],
+          "description": "I develop cross-platform applications using React Native for clients in various industries. I implement scalable solutions, optimize app performance, and integrate APIs in both Frontend and Backend services. I also apply best practices in user experience (UI/UX) and conduct thorough testing to ensure proper functionality across different devices and platforms.",
+          "list": [
+            "Development of cross-platform applications",
+            "Performance optimization",
+            "API integration",
+            "UI/UX implementation",
+            "Testing and debugging"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Web Foundation San Dimas",
+        "description": "San Dimas Foundation, dedicated to the protection of biodiversity and natural ecosystems in Colombia.",
+        "image": "/src/images/projects/SanDimas.png",
+        "techs": [
+          "Astro",
+          "TailwindCSS",
+          "CSS",
+          "TypeScript",
+          "React",
+          "JavaScript"
+        ],
+        "code": "Code",
+        "codeLink": "https://fundacionsandimas.org",
+        "preview": "Preview",
+        "previewLink": "https://fundacionsandimas.org/"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contributions",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Nothing to show",
+        "title": "Nothing to show",
+        "description": "Nothing to say",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repository",
+        "commits": "https://github.com/felipesanchez-dev"
+      },
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Nothing to show",
+        "title": "Nothing to show",
+        "description": "Nothing to say",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repository",
+        "commits": "https://github.com/felipesanchez-dev"
+      },
+      {
+        "src": "/src/images/contributions/profileGit.png",
+        "alt": "Nothing to show",
+        "title": "Nothing to show",
+        "description": "Nothing to say",
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "repo": "https://github.com/felipesanchez-dev",
+        "repo_label": "Repository",
+        "commits": "https://github.com/felipesanchez-dev"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Who am I beyond the screen?",
+    "description": "Programming is one of my greatest passions, but not everything in my life revolves around it. I am a persistent and creative person, always looking to balance my interests. I love football, playing chess, watching movies, and exploring the world by visiting new places. My main focus has been on studying technologies and improving my programming logic until I felt comfortable enough to share what I know, in my own way. Unlike traditional classes or courses that focus on formal theories, my goal is to teach programming in a more natural way, without the need to read manuals or use technical language that might be complicated."
+  },
+  "contact": {
+    "title": "Ready to bring your ideas to life?",
+    "subtitle": "I can boost your project or be part of your team"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "",
+      "designed_by": ""
+    },
+    "developed": {
+      "developed_with": "",
+      "developed_by": ""
+    }
+  }
+}

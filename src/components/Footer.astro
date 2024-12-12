@@ -1,0 +1,69 @@
+---
+import { t } from 'i18n:astro'
+
+const { designed  } = t('footer', {
+  returnObjects: true
+})
+
+const { designed_with: designedWith, designed_by: designedBy } = designed
+const year = new Date().getFullYear()
+---
+
+<footer>
+  <p>
+    <span>
+      © <span id="year">{year}</span>
+      {designedWith}
+      {designedBy}
+      <a
+        href="https://www.linkedin.com/in/felipereyessa"
+        target="_blank"
+        rel="noopener noreferrer">Pipedev</a
+      >
+    </span>
+  </p>
+</footer>
+
+<style>
+  footer {
+    padding-block: 67px;
+    text-align: center;
+    padding-inline: var(--mobile-inline-padding);
+
+    @media (width >= 768px) {
+      padding-inline: 0;
+    }
+
+    & p span video {
+      display: inline-block;
+      margin-inline: 4px;
+    }
+
+    & P > span:first-child::after {
+      content: '|';
+      display: inline-block;
+      translate: 0 -1px;
+      margin-right: 4px;
+    }
+
+    & a {
+      color: var(--text-color);
+      text-decoration: none;
+      transition: var(--transition-text);
+
+      @media (any-hover: hover) {
+        &:hover {
+          color: var(--text-description-color);
+        }
+      }
+    }
+
+    & video {
+      translate: 0 -2px;
+    }
+  }
+</style>
+
+<script is:inline>
+  document.querySelector('#year').textContent = new Date().getFullYear()
+</script>
